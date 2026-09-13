@@ -1,3 +1,4 @@
+# madrigal-Viewer
 # REU Madrigal Viewer
 
 *Developed by Ryan Cavanaugh*
@@ -118,18 +119,6 @@ All language models are hosted locally via LM Studio on a laptop equipped with a
 
 ---
 
-## Installation & Setup
-
-*[Dummy Header: Insert prerequisites (e.g., Python version, SQLite), environment setup (e.g., `pip install -r requirements.txt`), and step-by-step installation instructions here. Outline exactly how to configure LM Studio ports and link the SQLite databases before initializing the Flask server.]*
-
-## Usage & API Reference
-
-*[Dummy Header: Provide terminal commands for running the app (e.g., `flask run`), the default local host port, and instructions for interacting with the UI. If there are exposed API endpoints for the FAISS queries or clustering models, document them here with examples.]*
-
-## Contributing
-
-*[Dummy Header: Outline guidelines for creating pull requests, formatting code, reporting bugs, or suggesting new features for the viewer.]*
-
 ## License
 
-*[Dummy Header: Specify the project's license (e.g., MIT, GNU GPLv3) and any specific attribution requirements for the datasets used.]*
+This software is released under the GNU General Public License, version 2
