@@ -3,8 +3,6 @@
 
 *Developed by Ryan Cavanaugh*
 
-*[IMAGE PLACEHOLDER: Insert a high-resolution screenshot of the main dashboard or scatterplot view here to give users an immediate sense of the interface]*
-
 The REU Madrigal Viewer is a comprehensive Python Flask application designed to extract, embed, cluster, and visualize academic papers. It utilizes local Large Language Models (LLMs) to perform advanced metadata extraction and provides interactive semantic search, mapping, and network visualizations of scientific literature.
 
 ## Core Features
@@ -16,11 +14,8 @@ The application provides several interactive views to explore semantic embedding
 * **Scatterplot View**: Features a density heatmap, cluster islands, and a "Relevance Spiral" where points closer to the center are more similar to the selected point. It includes a GRU Tournament search model, semantic search visualization, Level of Detail (LOD) toggling, tooltip hover, and dropped pins showing the *k* closest points to an area.
 
 
-* *[GIF PLACEHOLDER: Insert an animated GIF demonstrating zooming/panning in the Scatterplot, using the Lasso Marquee Select Tool, and toggling the Level of Detail (LOD)]*
 * **Network View**: Node points scale dynamically based on up to 8 configurable connections per point. Features hover tooltips and allows users to multi-select the shortest path between points.
 
-
-* *[GIF PLACEHOLDER: Insert an animated GIF showing a user hovering over nodes and highlighting shortest paths in the Network view]*
 * **Hierarchy View**: Displays connected cards for each subcluster. Users can drag, rearrange, and merge clusters, utilizing split connections and an integrated network view.
 
 
@@ -36,7 +31,6 @@ The application provides several interactive views to explore semantic embedding
 * **Visual Enhancements**: Displays color gradients based on a point's distance to cluster centroids. Includes toggles for borders, grids, titles, xy axis labels, scales, and pins. Users can also limit the clustering view to specific, movable regions.
 
 
-* *[GIF PLACEHOLDER: Insert an animated GIF showing real-time clustering adjustments, region limitations, and cluster merging]*
 
 ### Filtering & Search
 
@@ -56,8 +50,6 @@ Users can narrow down data points using a robust set of filters:
 
 * **Export Options**: Save the current plot state as a PNG, export data points as a CSV, and export/load previous plot states.
 
-
-* *[IMAGE PLACEHOLDER: Insert a screenshot of the Meta Panel and Info View side-by-side]*
 
 ## Data Architecture
 
